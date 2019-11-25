@@ -1,7 +1,9 @@
-# Case: function without a positional argument
+
+
+# Case 1: function without a positional argument
 def calc(number1, number2):
-    sum = number1 + number2
-    print(sum)
+    addition = number1 + number2
+    print(addition)
 
 calc(1, 4) # the 1 will be number1 and 4 will be number2
 print('***************')
