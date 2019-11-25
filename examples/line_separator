@@ -1,0 +1,13 @@
+sign = '&&&&&&&&&&'
+
+def line_separator(sign):
+    #print('******************')
+    print(sign)
+
+
+print('First line')
+line_separator()
+print('Second line')
+line_separator()
+print('Third line')
+line_separator()
