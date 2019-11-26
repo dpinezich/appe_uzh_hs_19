@@ -6,11 +6,14 @@ def volume_from_radius(radius):
 
 # from ex3
 def distance(x1, y1, x2, y2):
-    return math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    dist = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    return dist
 
 def volume_from_points(x1, y1, x2, y2):
-    radius = distance(x1, y1, x2, y1)
-    return volume_from_radius(radius)
+    radius = distance(x1, y1, x2, y2)
+    result = volume_from_radius(radius)
+    return result
+
 
 x1 = int(input('Point 1 x-cord: '))
 y1 = int(input('Point 1 y-cord: '))
