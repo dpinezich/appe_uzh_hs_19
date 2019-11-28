@@ -7,7 +7,7 @@ import urllib.request
 import urllib.parse
 import datetime
 
-request = input('Your destination?: ')
+request = input('Your location?: ')
 
 # Get the json file from the API
 raw_answer = urllib.request.urlopen('http://transport.opendata.ch/v1/stationboard?station=' + urllib.parse.quote(request, safe='') + '&limit=10')
