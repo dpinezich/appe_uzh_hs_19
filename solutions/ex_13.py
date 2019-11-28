@@ -13,4 +13,5 @@ while True:
             print(address_book_dict[requested_name])
         else:
             print('Person nicht gefunden')
-    
+
+address_book_file.close()
